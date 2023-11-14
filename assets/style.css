@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: lightgrey;
+}
+
+header{
+    padding: 20px;
+}
+
+header, h1{
+    background-color: white;
+}
+
+h1{
+    display: inline-block;
+}
+
+{
+    background-color: white;
+}
+
+.list-container{
+    width: 80%;
+    margin: auto;
+    height: 1000px;
+    border: 1px solid black;
+}
+button{
+    text-transform: capitalize;
+}
