@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 body{
-    background-color: lightgrey;
+    background-color: #F7F8FA
 }
 
 header{
@@ -21,16 +21,26 @@ h1{
     display: inline-block;
 }
 
+button{
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: white;
+}
+.task{
+    background-color: #72A1F1;
+    
+}
 .button-area{
     border: 1px white;
+    border-bottom: 5px solid #F7F8FA;
     background-color: white;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px
+    padding-top: 15px; 
+    padding-bottom: 10px;
 }
-
 
 h2{
     text-transform: capitalize;
@@ -43,10 +53,6 @@ h2{
     border: 1px black;
     background-color: white;
     padding: 50px;
-}
-
-button{
-    text-transform: capitalize;
 }
 
 .green{
