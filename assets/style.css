@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+}
+body{
     background-color: lightgrey;
 }
 
 header{
     padding: 20px;
+    margin-bottom: 10%;
 }
 
 header, h1{
@@ -18,16 +21,78 @@ h1{
     display: inline-block;
 }
 
-{
+.button-area{
+    border: 1px white;
     background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+
+h2{
+    text-transform: capitalize;
 }
 
 .list-container{
     width: 80%;
     margin: auto;
-    height: 1000px;
-    border: 1px solid black;
+    height: 100%;
+    border: 1px black;
+    background-color: white;
+    padding: 50px;
 }
+
 button{
     text-transform: capitalize;
+}
+
+.green{
+    color: green;
+    border: 1px solid green;
+}
+
+.red{
+    color: red;
+    border: 1px solid red;
+}
+
+.red, .green{
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.tag-1{
+    background-color: #72A1F1;
+}
+.tag-2{
+    background-color: #9e5cee;
+}
+
+.tag-3{
+    background-color: #7EC1A6;
+}
+
+.tag-4{
+    background-color: #dfa600;
+}
+
+.tag-5{
+    background-color: #c85da7;
+}
+
+.tag-6{
+    background-color:#aed100;
+}
+
+.tag{
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+p{
+    padding: 10px 10px 10px 0px;
 }
